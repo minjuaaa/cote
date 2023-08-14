@@ -9,7 +9,6 @@ for i in range(leng):
         if s[i] == '(' and s[i+1] == ')':
             count += now
             now += 1
-
             continue
 
     if s[i] == ')':
